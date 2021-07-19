@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Font Awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/1475dcf3d8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>The Store</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="#">
+              <img src="./images/logo.png" alt="logo" width="125px" />
+            </a>
+          </div>
+          <nav>
+            <ul id="menuItems">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">My Account</a></li>
+            </ul>
+          </nav>
+          <a href="#">
+            <img
+              src="./images/cart.png"
+              alt="cart img"
+              width="30px"
+              height="30px"
+            />
+          </a>
+          <img
+            src="./images/menu.png"
+            alt="cart img"
+            width="30px"
+            height="30px"
+            class="menu-icon"
+            onclick="menuToggle()"
+          />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Make those muscles <br />
+              work with style!
+            </h1>
+            <p>
+              It's all about hard work, dedication, &amp; consistency. <br />
+              Keep patience greatness will come!
+            </p>
+            <a href="#" class="btn">Explore more &#10140; </a>
+          </div>
+          <div class="col-2">
+            <img src="./images/image1.png" alt="workout" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- Featured categories -->
+
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="./images/category-1.jpg" alt="category-1" />
+          </div>
+          <div class="col-3">
+            <img src="./images/category-2.jpg" alt="category-2" />
+          </div>
+          <div class="col-3">
+            <img src="./images/category-3.jpg" alt="category-3" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured categories end -->
+
+    <!-- Featured products -->
+
+    <div class="small-container">
+      <h2 class="title">Our Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/product-1.jpg" alt="product-1" />
+          <h4>Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>&#8377; 499/-</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-2.jpg" alt="product-2" />
+          <h4>Training Shoes</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>&#8377; 699/-</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-3.jpg" alt="product-3" />
+          <h4>Comfy Jogger's Men's</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>&#8377; 399/-</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-4.jpg" alt="product-4" />
+          <h4>Plain T-Shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>&#8377; 799/-</p>
+        </div>
+      </div>
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/product-5.jpg" alt="product-5" />
+          <h4>Sneakers Men's</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>&#8377; 699/-</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-6.jpg" alt="product-6" />
+          <h4>Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>&#8377; 499/-</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-7.jpg" alt="product-7" />
+          <h4>100% Cotton Socks</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>&#8377; 199/-</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-8.jpg" alt="product-8" />
+          <h4>Analog Watch Men's</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>&#8377; 399/-</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/product-9.jpg" alt="product-9" />
+          <h4>Analog Watch Men's</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>&#8377; 499/-</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-10.jpg" alt="product-10" />
+          <h4>Gym Shoes</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>&#8377; 899/-</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-11.jpg" alt="product-11" />
+          <h4>All Weather Unisex Shoes</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>&#8377; 199/-</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product-12.jpg" alt="product-12" />
+          <h4>Comfy Joggers Men's</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>&#8377; 399/-</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured products end -->
+
+    <!-- exclusive products -->
+
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img
+              src="./images/exclusive.png"
+              alt="exclusive"
+              class="offer-img"
+            />
+          </div>
+          <div class="col-2">
+            <p>Offers available exclusively for limited time!</p>
+            <h1>Smart Band</h1>
+            <small>
+              Connected bracelets or smart bracelets are called smart bands. In
+              most cases, they have a simple form and their main function is to
+              track and analyze your movements during the day. That's why, most
+              smart bands have a pedometer, and sometimes also an optical heart
+              rate sensor and various other sensors.
+            </small>
+            <a href="#" class="btn">Buy Now &#10140; </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- exclusive products end -->
+
+    <!-- testimonials -->
+
+    <div class="testimonials">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+              delectus ab distinctio et ratione architecto voluptate vero fugit
+              sint consequatur?
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <img src="./images/user-1.png" alt="user-1" />
+            <h3>Jane Doe</h3>
+          </div>
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eos
+              incidunt dolor maiores neque quia delectus assumenda, modi tempora
+              beatae.
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <img src="./images/user-2.png" alt="user-2" />
+            <h3>John Doe</h3>
+          </div>
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel in
+              incidunt repudiandae similique nesciunt! Ad distinctio vero unde
+              adipisci nobis!
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <img src="./images/user-3.png" alt="user-3" />
+            <h3>Jenny Doe</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- testimonials end -->
+
+    <!-- brads -->
+
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="./images/logo-coca-cola.png" alt="coke" />
+          </div>
+          <div class="col-5">
+            <img src="./images/logo-paypal.png" alt="paypal" />
+          </div>
+          <div class="col-5">
+            <img src="./images/logo-philips.png" alt="philips" />
+          </div>
+          <div class="col-5">
+            <img src="./images/logo-oppo.png" alt="oppo" />
+          </div>
+          <div class="col-5">
+            <img src="./images/logo-godrej.png" alt="godrej" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- brands end -->
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our app</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam,
+              repellat!
+            </p>
+            <div class="app-logo">
+              <a href="#">
+                <img src="./images/play-store.png" alt="play store" />
+              </a>
+              <a href="#">
+                <img src="./images/app-store.png" alt="app store" />
+              </a>
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./images/logo-white.png" alt="logo-white" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea illum
+              distinctio reprehenderit provident totam? Eveniet?
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>
+                <a href="#">Coupons</a>
+              </li>
+              <li>
+                <a href="#">Blog Posts</a>
+              </li>
+              <li>
+                <a href="#">Return Policy</a>
+              </li>
+              <li>
+                <a href="#">Join Affiliate</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us on :</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                  &nbsp; Facebook
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                  &nbsp; Twitter
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                  &nbsp; Linkedin
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                  &nbsp; Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">
+          <a href="https://github.com/AmirShaikh09">Amir Shaikh</a> | &copy; All
+          Rights Reserved 2021
+        </p>
+      </div>
+    </div>
+
+    <!-- footer end -->
+
+    <!-- Custom Script -->
+    <script src="./app.js"></script>
+  </body>
+</html>
